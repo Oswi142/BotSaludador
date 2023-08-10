@@ -1,5 +1,6 @@
 function verficarDatos(nombre)
 {
-    return nombre;
+    saludo="Bienvenido "+nombre;
+    return saludo;
 }
 export default verficarDatos;

@@ -6,5 +6,5 @@ const div = document.querySelector("#resultado-div");
 
 form.addEventListener("submit", (event) => {
   event.preventDefault();
-  console.log("Bienvenido")
+  div.innerHTML = "<p>" + verficarDatos(name.value) + "</p>";
 });
